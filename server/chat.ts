@@ -8,7 +8,6 @@ const ollama = new Ollama({
     stop: ['User:'],
 });
 
-// ✅ Doğru formatta prompt fonksiyonu
 const generatePrompt = (userPrompt: string): string => `
 You are a helpful assistant that can answer questions and help with tasks.
 User: ${userPrompt}
