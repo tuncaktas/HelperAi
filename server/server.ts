@@ -4,7 +4,9 @@ const app = express()
 
 const PORT = 8000
 
-app.get('/chat', chatHandler)
+app.use(express.json())
+
+app.post('/chat', chatHandler)
 
 
 app.listen(PORT, () => {
