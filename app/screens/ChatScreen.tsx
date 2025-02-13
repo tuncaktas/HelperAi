@@ -98,7 +98,7 @@ const ChatScreen = () => {
       >
         {/* Header */}
         <View className="px-4 py-3 border-b border-gray-800">
-          <Text className="text-xl font-semibold text-white">AI Assistant</Text>
+          <Text className="text-xl font-semibold text-white">HelperAI</Text>
           <Text className="text-sm text-gray-400">Always here to help</Text>
         </View>
 
