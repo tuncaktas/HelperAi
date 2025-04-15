@@ -37,7 +37,5 @@ npx expo start
 - Start interacting with the AI-powered assistant in real time.
 - Enjoy seamless, chat-like AI responses streamed dynamically.
 
-## 📌 Contributing
-To contribute, please submit a **pull request** or open an **issue**.
 
 
